@@ -1,0 +1,305 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+/* KEEP THESE STYLES */
+header {
+  padding: 154px 0 100px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 156px 0 100px;
+  }
+}
+
+section {
+  padding: 150px 0;
+}
+/* END OF KEEP THESE STYLES */
+
+/*editing the above styles*/
+header {
+  padding: 65px 0 0px;
+}
+
+@media (min-width: 992px) {
+  header {
+    padding: 65px 0 0px;
+  }
+}
+
+
+/*universal typography css*/
+p, li, a {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+}
+
+h2 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px; 
+}
+
+h3 {
+    font-family: 'Great Vibes', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    font-style: italic;
+    text-align: center;
+    text-decoration: underline;
+}
+
+section a, .caption a {
+    color: #F6EBE0;
+}
+section a:link, .caption a:link {
+    color: #F6EBE0;
+}
+
+section a:visited, .caption a:visited {
+    color: #E1E6ED;
+}
+
+section a:hover, .caption a:hover {
+    color: #C7A2A9;
+}
+
+#lemon a:hover, #pumpkin a:hover {
+    color: #2A3645;
+}
+
+section a:active, .caption a:active {
+    color: #F6EBE0;
+}
+
+section li {
+    padding: 5px;
+}
+
+/*nav css*/
+nav {
+    background-color: #7C3626;
+} 
+
+.navbar-brand {
+    padding-left: 20px;
+}
+
+
+.navbar-collapse {
+    background-color: rgba(124, 54, 38, 0.9);
+}
+
+.nav-main {
+    padding-left: 10px;
+}
+
+.navbar-dark a {
+    color: rgba(246, 235, 224, 1);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500
+}
+.navbar-dark a:link {
+    color: rgba(246, 235, 224, 1);
+}
+
+.navbar-dark a:visited {
+    color: rgba(246, 235, 224, 1);
+}
+
+.navbar-dark a:hover {
+    color: rgba(246, 235, 224, 1);
+}
+
+.navbar-dark a:active {
+    color: rgba(246, 235, 224, 1);
+}
+
+/*header css*/
+
+header {
+    max-width: 1200px;
+    margin: auto;
+    border: 1px solid black;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    text-align: center;
+    padding-top: 20px;
+    margin: auto;
+    z-index: 10;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+    
+.overlay h2 {
+    font-size: 5rem;
+}
+
+.overlay p{
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;  
+}
+
+.caption {
+    position: absolute;
+    margin: auto;
+    z-index: 9;
+    top: 10px;
+    right: 0%;
+    padding: 5px;
+    text-align: right;
+    font-size: 15px;
+}
+.caption p {
+    width: 100%;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+/*section css*/
+section {
+    max-width: 1200px;
+    margin: auto;
+    padding: 25px 20px;
+}
+
+.card, .list-group-item {
+background-color: rgba(246, 235, 224, 0.5);
+    color: #F6EBE0; 
+}
+
+#lemon, #pumpkin {
+background-color: rgba(85, 111, 68, 0.6)
+}
+
+#apple {
+    background-image: url(../images/apples-bkg.jpeg); /*Free to use under the Unsplash License: https://unsplash.com/@terras?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: darken;
+    padding:40px;
+    color: #F6EBE0;
+}
+
+#pecan {
+    background-image: url(../images/pecans.jpeg); /*Free to use under the Unsplash License: https://unsplash.com/@saracervera?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText*/
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center top;
+    background-size: cover;
+    background-color: rgba(0,0,0,0.7);
+    background-blend-mode: darken;
+    height:100vh;
+    padding:40px;
+    color: #F6EBE0;
+}
+
+.card, .list-group-item {
+    color: black;    
+}
+
+#lemon img {
+    max-width: 100%;
+    margin-top: 10px;
+    border: 1px solid black;
+}
+
+#apple img {
+    max-width: 100%;
+}
+
+.sm-caption {
+    padding: 5px;
+    text-align: center;
+    font-size: 10px;
+}
+
+/*footer css*/
+footer {
+   background-color: #7C3626;
+    padding: 5px;
+    color: rgb(246, 235, 224);
+}
+
+footer a {
+    color: rgba(246, 235, 224, 0.7);
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500
+}
+
+footer a:link {
+    color: rgba(246, 235, 224, 0.7);
+}
+
+footer a:visited {
+    color: rgba(246, 235, 224, 0.7);
+}
+
+footer a:hover {
+    color: rgba(246, 235, 224, 1);
+}
+
+footer a:active {
+    color: rgba(246, 235, 224, 0.7);
+}
+
+
+
+/*Back to top button from Dr. Steven Anderson's website */
+#back2Top {
+    width:30px; /* width of button */
+    height:30px; /* height of button */
+    line-height:30px;
+    overflow:hidden;
+    z-index:999;
+    display:none; /* initially not displayed */
+    cursor:pointer;
+    transform:rotate(270deg); /* turns right arrow 270 degrees */
+    position:fixed; /* fixed at bottom corner */
+    bottom:30px; /* distance from bottom */
+    right:40px; /* distance from right */
+    padding:0px; /* padding around arrow */
+    border: none;
+    border-radius: 7px;
+    background:rgba(49, 62, 80, 0.6); /* blue background with transparency */
+    color:#eee; /* color of arrow */
+    text-align:center;
+    font-size:25px; /* size of the arrow */
+    text-decoration:none;
+}
+#back2Top:link {
+    background:rgba(49, 62, 80, 0.6);
+    color:#fff;
+}
+#back2Top:visited {
+    background:rgba(49, 62, 80, 0.6);
+    color:#fff;
+}
+#back2Top:hover {
+    background:rgba(49, 62, 80, 0.9);
+    color:#eee;
+}
+#back2Top:active {
+    background:rgba(49, 62, 80, 0.6);
+    color:#fff;
+}
